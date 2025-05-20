@@ -91,6 +91,6 @@ Data diambil dari publikasi resmi BPS yang berjudul *Persentase Penduduk Miskin 
 
 st.subheader("👥 Dibuat oleh")
 st.markdown("""
-- **Nama 1:** [Masukkan Nama Lengkap]
-- **Nama 2:** [Masukkan Nama Lengkap]
+- **Nama 1:** [Putri Maulida Chairani]
+- **Nama 2:** [Sylviani Prima Astuti Ananda]
 """)
