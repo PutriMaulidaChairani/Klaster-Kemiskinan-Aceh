@@ -8,17 +8,15 @@ from sklearn.decomposition import PCA
 import plotly.express as px
 
 # Judul Web
-st.title("Analisis Klaster Kemiskinan di Provinsi Sumatera")
+st.title("Analisis Klaster Kemiskinan di Pulau Sumatera Menggunakan Metode K-Means")
 st.markdown("Menggunakan PCA dan K-Means Clustering berdasarkan data persentase penduduk miskin.")
 
 # Penjelasan Umum
 st.header("🧾 Deskripsi Umum")
 st.markdown("""
-Aplikasi ini bertujuan untuk mengelompokkan provinsi-provinsi di Pulau Sumatera berdasarkan tingkat kemiskinan dari waktu ke waktu.
-Kami menggunakan teknik **Principal Component Analysis (PCA)** untuk reduksi dimensi dan **K-Means Clustering** untuk mengidentifikasi kelompok-kelompok provinsi yang memiliki pola kemiskinan serupa.
-
-Dengan pendekatan ini, pemerintah atau pemangku kebijakan dapat memahami daerah mana yang memerlukan perhatian lebih dalam upaya penanggulangan kemiskinan.
+Aplikasi ini menampilkan analisis klaster kemiskinan di provinsi-provinsi di Pulau Sumatera menggunakan data persentase penduduk miskin dari waktu ke waktu. Melalui kombinasi metode Principal Component Analysis (PCA) dan K-Means Clustering, provinsi dikelompokkan berdasarkan kemiripan pola kemiskinan. Visualisasi seperti heatmap dan plot interaktif digunakan untuk memberikan gambaran tren serta perbedaan antar wilayah secara lebih intuitif.
 """)
+
 
 # Load Data
 data = pd.read_csv('persentase-penduduk-miskin-menurut-provinsi-di-pulau-sumatera (1).csv', delimiter=';')
