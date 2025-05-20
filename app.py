@@ -67,9 +67,9 @@ st.subheader("🔍 Interpretasi Hasil Klaster")
 st.markdown("""
 Setiap klaster mewakili kelompok provinsi yang memiliki pola kemiskinan yang mirip selama beberapa tahun terakhir.  
 Misalnya:
-- **Cluster 0** bisa jadi terdiri dari provinsi dengan tren penurunan kemiskinan yang stabil.
-- **Cluster 1** mungkin mencakup provinsi dengan fluktuasi besar dari tahun ke tahun.
-- **Cluster 2** dapat mewakili daerah dengan tingkat kemiskinan yang relatif tinggi.
+- **Cluster 0** terdiri dari provinsi dengan tren penurunan kemiskinan yang stabil.
+- **Cluster 1** mencakup provinsi dengan fluktuasi besar dari tahun ke tahun.
+- **Cluster 2** mewakili daerah dengan tingkat kemiskinan yang relatif tinggi.
 - **Cluster 3** menunjukkan daerah yang stabil dan rendah tingkat kemiskinannya.
 
 Interpretasi ini bisa diperdalam dengan melihat data aktual dan kondisi sosial ekonomi masing-masing provinsi.
@@ -91,6 +91,6 @@ Data diambil dari publikasi resmi BPS yang berjudul *Persentase Penduduk Miskin 
 
 st.subheader("👥 Dibuat oleh")
 st.markdown("""
-- **Nama 1:** [Putri Maulida Chairani]
-- **Nama 2:** [Sylviani Prima Astuti Ananda]
+- **121450050** - Putri Maulida Chairani
+- **121450042** - Sylviani Prima Astuti Ananda
 """)
